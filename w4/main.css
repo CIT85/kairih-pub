@@ -1,12 +1,50 @@
-html { font-size: 22px }
-
-body {
-    background-color:#6eafc6;
-    color:#191919;
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0cap;
+    margin:0%;
 }
 
-a {color:rgb(103, 255, 43);}
+h2 {
+    font-size: 2rem;
+}
 
-a:visited {color: #114676;}
+h4 {
+    font-size: 18px;
+}
 
-a:hover {color: #71e5f7;}
+h5 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0cap;
+    margin: 2%;
+    color:black;
+}
+
+a {
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    color:black;
+}
+
+body {
+    background-color: #B3A492;
+}
+
+a {color: blue;}
+
+a:visited {color: darkmagenta;}
+
+a:hover {color: pink;} 
+
+a:active {color: orangered;}
+
+table, tr, th, td, caption {
+    border: 3px solid #000000;
+    font-family:'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    padding: 0.3rem;
+}
