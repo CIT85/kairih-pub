@@ -31,20 +31,59 @@ p {
 }
 
 body {
-    background-color: #B3A492;
+    background-color: #7D9AB9;
 }
 
 a {color: blue;}
 
-a:visited {color: darkmagenta;}
+a:visited {color: #4D556B;}
 
-a:hover {color: pink;} 
+a:hover {color: #9EB3CA;} 
 
-a:active {color: orangered;}
+a:active {color: red;}
 
 table, tr, th, td, caption {
     border: 3px solid #000000;
     font-family:'Times New Roman', Times, serif;
     border-collapse: collapse;
     padding: 0.3rem;
+}
+
+.asb{
+    margin: rem auto;
+    background-color:#7D9AB9;
+    width: 56px;
+    height: 150px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #000000;
+    outline-offset: 2;
+}
+.pb{
+    background-color:#9EB3CA;
+    width: 56px;
+    height: 150px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #000000;
+    outline-offset: 2;
+}.pg{
+    margin: rem auto;
+    background-color:#4D556B;
+    width: 56px;
+    height: 150px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #000000;
+    outline-offset: 2;
+}
+.b{
+    margin: rem auto;
+    background-color:#000000;
+    width: 56px;
+    height: 150px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #000000;
+    outline-offset: 2;
 }
