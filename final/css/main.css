@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* Begin Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+/* End Reset */
+
+/* Utility Classes */
+.nowrap {
+    white-space: nowrap;
+  }
+  
+  .offscreen {
+    position: absolute;
+    left: -10000px;
+  }
+/*  End Utility Classes */
+
+body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+    background-color: #747e57;
+
+    background-size: 20%, auto;
+}
+
+li {
+    padding: 0.5px;
+    margin: 19px;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;  
+  }
+
+p {
+    font-size: 15px;
+  }
+
+a {color:#191717;}
+
+a:visited {color:#445D48;}
+
+a:hover {color: #ECE3CE;}
+
+a:active {color: #FF5B22;}
+
+/* Title Stuff*/
+.container {
+    background-color: rgb(251, 210, 156);
+    background-image: url('../img/calming_minecraft.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+  
+.title {
+    border-bottom: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+  
+    background-color: #747e57;
+    background-image: url('../img/calming_minecraft.png');
+}
+
+.h1 {
+    font-size: 700%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.title img {
+    width: 45%;
+    height: auto;
+    min-width: 45%;
+    border: 5px dashed black;
+    border-radius: 50%;
+}
+
+.pfp {
+    width: 35%;
+  }
+  
+.pfp img {
+    width: 50%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+  }
+/* End of Title stuff*/
+
+/* Color Pallete*/
+.color-pallete{
+    background-color: black;
+}
+.color-palette {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.color-box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.FlaxSmoke {
+  background-color: #747e57;
+  border: 2px solid black;
+  outline: 2px solid black;
+}
+.orange {
+  background-color: #FF5B22;
+  
+}
+.aths-special {
+  background-color: #ECE3CE;
+}
+.gray-asparagus {
+  background-color:  #445D48;
+
+}
+.extra {
+  background-color: #747e57;
+}
+
+/* Kiwi Color Palette */
+.color-pallete{
+    background-color: black;
+}
+.color-palette {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.color-box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+
+}
+.Tundora {
+  background-color: #434242;
+}
+.Parchment {
+  background-color: #f0e4d0;
+}
+.chelsea-cucumber {
+  background-color: #88ae67;
+}
+.hippie-green {
+  background-color:  #658a45;
+}
+.anzac {
+  background-color: #dea645;
+}
+
+/* Proxy Color Palette */
+.color-pallete{
+    background-color: black;
+}
+.color-palette {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.color-box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.bridal-heath {
+  background-color: #DFCCD8ff;
+}
+.Fruit-Salad {
+  background-color: #B17F8Aff;
+}
+.mine-shaft {
+  background-color: #1D1A24ff;
+}
+.tom-thumb {
+  background-color:  #3C335Fff;
+}
+.natural-gray {
+  background-color: #111321ff;
+}
+/* End of Colors */
+
+/* Screen Types */
+@media screen and (min-width: 768px) {
+    body {
+      background-color: #3C335Fff;
+      background-image:linear-gradient(whitesmoke, #3C335Fff)
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    body {
+      background-color: #658a45;
+      background-image:linear-gradient(whitesmoke, #658a45)
+    }
+  }
